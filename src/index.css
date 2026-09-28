@@ -9,9 +9,30 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.main .sidebarWrapper{ height: 100vh;}
-.main .sidebarWrapper .sidebar{height: 100vh; background: #fff;}
-.main .sidebarWrapper .sidebar .sidebarTabs Button{color: #4F4F4F !important; font-weight: 600; border-radius: 0px;}
-.main .sidebarWrapper .sidebar .sidebarTabs Button svg {font-size: 20px;}
-.main .sidebarWrapper .sidebar .sidebarTabs ul li Button {margin-top: 12px; text-transform: capitalize;}
-.main .sidebarWrapper .sidebar .sidebarTabs Button:hover{background: #f1f1f1;}
+.main .sidebarWrapper {
+    height: 100vh;
+}
+
+.main .sidebarWrapper .sidebar {
+    height: 100vh;
+    background: #fff;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs Button {
+    color: #4F4F4F !important;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs Button svg {
+    font-size: 20px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs ul li Button {
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs Button:hover {
+    background: #f1f1f1;
+}
